@@ -350,7 +350,6 @@
 			<fileset dir="${build.dir}">
                 <include name="**/*.class"/>
 			</fileset>
-            <zipfileset src="lib/ant.jar"/>
             <fileset dir="${basedir}">
                 <include name="bin/langpacks/flags/*"/>
                 <include name="bin/langpacks/installer/*"/>
